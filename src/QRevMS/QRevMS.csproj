@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>QRevMS</RootNamespace>
+    <AssemblyName>QRevMS</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <Platforms>x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+    <Deterministic>true</Deterministic>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Pinned to 25.2.2 for compatibility with older systems for now -->
+    <PackageReference Include="Aquarius.FieldDataFramework" Version="25.2.2" />
+    <PackageReference Include="System.Text.Json" Version="10.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\data\SampleQRevMS-MeanSection.xml" CopyToOutputDirectory="PreserveNewest" Link="data\SampleQRevMS-MeanSection.xml" />
+    <None Include="..\..\data\SampleQRevMS-MidSection.xml" CopyToOutputDirectory="PreserveNewest" Link="data\SampleQRevMS-MidSection.xml" />
+    <None Include="..\..\data\SampleQRevMS-MeanSection-LeftBankStart.xml" CopyToOutputDirectory="PreserveNewest" Link="data\SampleQRevMS-MeanSection-LeftBankStart.xml" />
+    <None Include="Configuration\Config.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  
+  <Target Name="PackagePlugin" AfterTargets="Build" Condition="'$(Configuration)' == 'Release'">
+    <Exec Command="&quot;$(NuGetPackageRoot)aquarius.fielddataframework\25.2.2\tools\PluginPackager.exe&quot; &quot;$(TargetPath)&quot; /OutputPath=&quot;$(ProjectDir)deploy\$(Configuration)\$(TargetName).plugin&quot;" />
+  </Target>
+
+</Project>

@@ -1,0 +1,10 @@
+[Bb]in/
+[Oo]bj/
+.idea/
+.vs/
+.vscode/
+*.user
+*.suo
+packages/
+TestResults/
+AppendedResults*.json

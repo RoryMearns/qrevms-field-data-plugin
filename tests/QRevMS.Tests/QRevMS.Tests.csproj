@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <IsPackable>false</IsPackable>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
+    <PackageReference Include="Aquarius.FieldDataFramework" Version="25.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\QRevMS\QRevMS.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\data\SampleQRevMS-MeanSection.xml" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\..\data\SampleQRevMS-MidSection.xml" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\..\data\SampleQRevMS-MeanSection-LeftBankStart.xml" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

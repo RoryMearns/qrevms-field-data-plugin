@@ -1,0 +1,2065 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Channel QRevFilename="20260923_135918_140_QRevMS" QRevVersion="QRevMS 1.40">
+	<SiteInformation>
+		<StationName type="char">Lee Stream at SH87</StationName>
+		<SiteID type="char"/>
+		<Persons type="char">VLRJ</Persons>
+		<MeasurementNumber type="char"/>
+	</SiteInformation>
+	<QA>
+		<DiagnosticTestResult type="char">Pass</DiagnosticTestResult>
+		<CompassCalibrationResult type="char">Yes</CompassCalibrationResult>
+		<DiagnosticTest>
+			<Text type="char">{'TestTime': '2025-10-02T20:39:04.2687178Z', 'InstrumentSerialNumber': 'RS52126005', 'Battery': 'Passed', 'TemperatureSensor': 'Passed', 'Compass': 'Passed', 'DataStorageDevice': 'NotPerformed', 'BatteryVoltage (V)': 4.029999732971191}</Text>
+		</DiagnosticTest>
+		<TemperatureCheck>
+			<TemperatureChange type="double" unitsCode="degC">0.12</TemperatureChange>
+		</TemperatureCheck>
+		<QRev_Message type="char">WT-The percent of valid cells in stations [17, 2, 10] is less than 50%Bt-: Percent valid ensembles in stations [17, 2, 18, 21, 8] are less than 80%Extrapolation: The extrapolation uncertainty is more than 2 percent for stations [8, 13, 23]Temperature: No independent temperature readingStations [2, 10, 13, 17] have less than 80% valid ensemblesSite Info: Site number not entered;Wt-The percent of valid cells in stations [11, 12, 13, 18, 22, 23] is less than 80%</QRev_Message>
+	</QA>
+	<Instrument>
+		<Manufacturer type="char">SonTek</Manufacturer>
+		<Model type="char">RS5</Model>
+		<SerialNumber type="char">RS52126005</SerialNumber>
+		<FirmwareVersion type="char">1.51</FirmwareVersion>
+		<Frequency type="char" unitsCode="kHz">Multi</Frequency>
+		<BeamAngle type="double" unitsCode="deg">25.0</BeamAngle>
+		<BlankingDistance type="double" unitsCode="m">0.0000</BlankingDistance>
+	</Instrument>
+	<Processing>
+		<SoftwareVersion type="char">QRevMS 1.40</SoftwareVersion>
+		<Type type="char">QRev</Type>
+		<DischargeMethod type="char">Mean-Section</DischargeMethod>
+		<VelocityReference type="char">None</VelocityReference>
+		<VelocityMethod type="char">Azimuth</VelocityMethod>
+		<TaglineAzimuth type="double" unitsCode="deg">108.1</TaglineAzimuth>
+		<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+		<Filename type="char">2025.10.03_093142.rsqst</Filename>
+	</Processing>
+	<ChannelSummary>
+		<ChannelTopQ type="double" unitsCode="cms">0.29013</ChannelTopQ>
+		<ChannelMiddleQ type="double" unitsCode="cms">0.92464</ChannelMiddleQ>
+		<ChannelBottomQ type="double" unitsCode="cms">0.22285</ChannelBottomQ>
+		<ChannelTotalQ type="double" unitsCode="cms">1.43321</ChannelTotalQ>
+		<ChannelWidth type="double" unitsCode="m">4.40000</ChannelWidth>
+		<ChannelArea type="double" unitsCode="sqm">2.36</ChannelArea>
+		<MeanNormalVelocity type="double" unitsCode="mps">0.609</MeanNormalVelocity>
+		<ChannelMeanDepth type="double" unitsCode="m">0.535</ChannelMeanDepth>
+		<ChannelMaximumDepth type="double" unitsCode="m">0.557</ChannelMaximumDepth>
+		<MaximumNormalVelocity type="double" unitsCode="mps">0.756</MaximumNormalVelocity>
+		<UserRating type="char">Good</UserRating>
+		<Uncertainty>
+			<Model type="char">IVE</Model>
+			<Total type="double" unitsCode="%">3.4</Total>
+		</Uncertainty>
+		<UncertaintySettings>
+			<DefaultOtherSystematic type="double" unitsCode="%">1.0</DefaultOtherSystematic>
+			<DefaultInstrumentSystematic type="double" unitsCode="%">1.3</DefaultInstrumentSystematic>
+			<DefaultNumStations type="double" unitsCode="%">2.1</DefaultNumStations>
+			<DefaultWidth type="double" unitsCode="%">0.5</DefaultWidth>
+			<DefaultInstrumentRepeatability type="double" unitsCode="%">0.0</DefaultInstrumentRepeatability>
+		</UncertaintySettings>
+		<ISOUncertainty>
+			<AutoSystematic type="double" unitsCode="%">1.6</AutoSystematic>
+			<AutoDepth type="double" unitsCode="%">0.1</AutoDepth>
+			<AutoVelocity type="double" unitsCode="%">0.1</AutoVelocity>
+			<AutoWidth type="double" unitsCode="%">0.1</AutoWidth>
+			<AutoNumStations type="double" unitsCode="%">2.1</AutoNumStations>
+			<AutoNumPoints type="double" unitsCode="%">2.1</AutoNumPoints>
+			<AutoTotal type="double" unitsCode="%">5.4</AutoTotal>
+		</ISOUncertainty>
+		<IVEUncertainty>
+			<AutoSystematic type="double" unitsCode="%">1.6</AutoSystematic>
+			<AutoDepth type="double" unitsCode="%">0.2</AutoDepth>
+			<AutoVelocity type="double" unitsCode="%">0.4</AutoVelocity>
+			<AutoWidth type="double" unitsCode="%">0.1</AutoWidth>
+			<AutoTotal type="double" unitsCode="%">3.4</AutoTotal>
+		</IVEUncertainty>
+	</ChannelSummary>
+	<StationDischarge>
+		<Station>
+			<StationLocation type="double" unitsCode="m">2.98</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.497</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.250</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.12</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.302</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.00649</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.02221</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.00912</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.03754</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">2.62</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">3.20</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.534</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.200</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.11</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.504</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.00912</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.03260</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.01245</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.05384</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">3.76</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">3.40</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.541</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.200</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.11</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.608</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.01161</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.03945</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.01483</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.06575</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">4.59</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">3.60</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.540</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.200</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.11</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.625</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.01293</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.04253</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.01211</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.06757</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">4.71</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">3.80</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.541</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.200</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.11</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.625</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.01359</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.04547</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.00854</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.06761</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">4.72</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">4.00</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.539</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.200</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.11</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.624</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.01394</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.04533</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.00791</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.06719</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">4.69</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">4.20</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.541</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.200</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.11</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.586</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.01484</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.04148</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.00705</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.06345</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">4.43</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">4.40</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.545</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.200</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.11</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.574</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.01616</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.03980</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.00644</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.06250</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">4.36</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">4.60</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.557</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.200</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.11</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.608</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.01450</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.03954</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.01399</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.06774</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">4.73</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">4.80</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.540</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.200</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.11</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.635</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.01257</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.04219</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.01439</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.06866</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">4.79</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">5.00</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.502</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.200</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.10</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.651</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.01280</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.04641</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.00637</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.06531</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">4.56</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">5.20</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.495</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.200</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.10</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.644</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.01283</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.04399</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.00741</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.06374</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">4.45</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">5.40</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.500</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.200</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.10</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.669</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.01299</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.04258</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.01173</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.06692</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">4.67</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">5.60</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.505</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.200</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.10</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.697</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.01479</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.04194</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.01350</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.07028</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">4.90</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">5.80</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.506</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.200</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.10</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.661</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.01606</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.03773</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.01297</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.06687</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">4.67</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">6.00</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.496</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.200</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.10</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.647</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.01464</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.04034</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.00963</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.06409</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">4.47</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">6.20</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.481</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.200</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.10</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.721</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.01342</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.04794</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.00864</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.06939</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">4.84</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">6.40</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.477</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.200</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.10</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.756</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.01345</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.04931</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.00951</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.07210</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">5.03</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">6.60</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.474</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.200</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.09</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.729</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.01315</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.04767</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.00853</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.06916</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">4.83</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">6.80</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.464</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.200</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.09</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.701</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.01193</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.04595</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.00732</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.06499</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">4.53</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">7.00</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.450</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.200</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.09</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.627</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.01045</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.04011</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.00617</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.05646</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">3.94</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">7.17</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.444</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.150</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.07</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.559</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.00768</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.02383</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.00580</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.03721</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">2.60</StationPercentQ>
+		</Station>
+		<Station>
+			<StationLocation type="double" unitsCode="m">7.38</StationLocation>
+			<StationDepth type="double" unitsCode="m">0.477</StationDepth>
+			<StationWidth type="double" unitsCode="m">0.250</StationWidth>
+			<StationArea type="double" unitsCode="sqm">0.12</StationArea>
+			<StationNormalVelocity type="double" unitsCode="mps">0.376</StationNormalVelocity>
+			<StationTopQ type="double" unitsCode="cms">0.01019</StationTopQ>
+			<StationMiddleQ type="double" unitsCode="cms">0.02623</StationMiddleQ>
+			<StationBottomQ type="double" unitsCode="cms">0.00843</StationBottomQ>
+			<StationTotalQ type="double" unitsCode="cms">0.04485</StationTotalQ>
+			<StationPercentQ type="double" unitsCode="cms">3.13</StationPercentQ>
+		</Station>
+	</StationDischarge>
+	<VerticalDetails>
+		<Vertical>
+			<Bank type="char">Right</Bank>
+			<Location type="double" unitscode="m">2.85</Location>
+			<EdgeDepth type="double" unitscode="m">0.470</EdgeDepth>
+			<EdgeCoefficient type="double">0.7070</EdgeCoefficient>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">3.10</Location>
+			<StartDateTime type="char">2025.10.03 09:28:20</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:28:59</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.52</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:27:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">4.41</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">6.98</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.463</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">11.558</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.427</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.857</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.883</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">24</NumberValidEnsembles>
+			<NumberValidCells type="int">11</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Power</TopMethod>
+					<BottomMethod type="char">Power</BottomMethod>
+					<Exponent type="double">0.1271</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.38</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1440.0075</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.05</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">1.76</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">-0.91</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.15</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.06</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">3.30</Location>
+			<StartDateTime type="char">2025.10.03 09:26:51</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:27:30</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.54</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:26:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">7.56</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">3.19</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.618</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">5.998</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.582</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.909</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.887</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">40</NumberValidEnsembles>
+			<NumberValidCells type="int">13</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Power</TopMethod>
+					<BottomMethod type="char">Power</BottomMethod>
+					<Exponent type="double">0.1218</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.36</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1440.0000</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.05</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">1.97</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">-0.89</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.12</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.06</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">3.50</Location>
+			<StartDateTime type="char">2025.10.03 09:25:15</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:25:54</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.54</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:24:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">8.74</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">3.64</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.676</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">4.909</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.634</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.932</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.857</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">40</NumberValidEnsembles>
+			<NumberValidCells type="int">6</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Power</TopMethod>
+					<BottomMethod type="char">Power</BottomMethod>
+					<Exponent type="double">0.1667</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.35</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1439.9000</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.05</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">1.93</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">-0.80</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.10</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.04</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">3.70</Location>
+			<StartDateTime type="char">2025.10.03 09:24:02</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:24:41</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.54</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:23:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">8.84</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">2.33</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.652</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">5.438</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.617</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.870</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.807</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">38</NumberValidEnsembles>
+			<NumberValidCells type="int">7</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Power</TopMethod>
+					<BottomMethod type="char">Power</BottomMethod>
+					<Exponent type="double">0.2386</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.33</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1439.8275</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.06</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">1.92</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">-0.76</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.11</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.06</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">3.90</Location>
+			<StartDateTime type="char">2025.10.03 09:22:36</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:23:15</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.54</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:22:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">5.93</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">4.41</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.676</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">9.667</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.634</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.874</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.794</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">40</NumberValidEnsembles>
+			<NumberValidCells type="int">7</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Power</TopMethod>
+					<BottomMethod type="char">Power</BottomMethod>
+					<Exponent type="double">0.2586</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.32</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1439.7975</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.06</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">1.94</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">-0.54</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.11</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.07</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">4.10</Location>
+			<StartDateTime type="char">2025.10.03 09:21:22</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:22:01</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.54</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:20:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">5.52</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">4.69</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.658</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">9.219</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.614</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.845</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.764</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">40</NumberValidEnsembles>
+			<NumberValidCells type="int">7</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Power</TopMethod>
+					<BottomMethod type="char">Power</BottomMethod>
+					<Exponent type="double">0.3096</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.30</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1439.7025</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.06</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">1.84</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">-0.58</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.12</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.06</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">4.30</Location>
+			<StartDateTime type="char">2025.10.03 09:19:24</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:20:03</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.55</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:18:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">9.00</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">5.01</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.595</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">7.829</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.558</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.777</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.689</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">40</NumberValidEnsembles>
+			<NumberValidCells type="int">7</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Power</TopMethod>
+					<BottomMethod type="char">Power</BottomMethod>
+					<Exponent type="double">0.4412</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.31</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1439.7850</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.07</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">1.82</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">-0.50</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.13</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.09</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">4.50</Location>
+			<StartDateTime type="char">2025.10.03 09:18:13</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:18:52</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.54</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:17:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">11.16</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">7.09</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.620</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">15.052</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.589</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.794</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.688</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">40</NumberValidEnsembles>
+			<NumberValidCells type="int">7</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Power</TopMethod>
+					<BottomMethod type="char">Power</BottomMethod>
+					<Exponent type="double">0.4486</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.30</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1439.7000</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.07</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">1.78</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">-0.57</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.11</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.08</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">4.70</Location>
+			<StartDateTime type="char">2025.10.03 09:16:55</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:17:34</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.57</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:16:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">13.32</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">3.70</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.697</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">4.549</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.628</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.848</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.806</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">27</NumberValidEnsembles>
+			<NumberValidCells type="int">11</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Power</TopMethod>
+					<BottomMethod type="char">Power</BottomMethod>
+					<Exponent type="double">0.2288</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.29</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1439.7000</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.08</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">1.57</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">-0.70</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.11</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.07</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">4.90</Location>
+			<StartDateTime type="char">2025.10.03 09:15:39</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:16:18</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.51</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:15:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">13.24</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">3.22</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.671</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">7.673</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.643</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.857</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.807</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">33</NumberValidEnsembles>
+			<NumberValidCells type="int">14</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Power</TopMethod>
+					<BottomMethod type="char">Power</BottomMethod>
+					<Exponent type="double">0.2319</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.29</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1439.6950</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.08</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">1.45</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">-0.75</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.09</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.06</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">5.10</Location>
+			<StartDateTime type="char">2025.10.03 09:14:21</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:15:00</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.49</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:13:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">12.78</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">2.64</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.679</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">6.586</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.659</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.848</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.809</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">36</NumberValidEnsembles>
+			<NumberValidCells type="int">14</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Power</TopMethod>
+					<BottomMethod type="char">Power</BottomMethod>
+					<Exponent type="double">0.2316</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.29</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1439.6900</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.08</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">1.00</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">-0.55</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.07</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.05</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">5.30</Location>
+			<StartDateTime type="char">2025.10.03 09:13:12</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:13:51</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.50</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:12:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">14.56</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">2.86</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.702</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">8.696</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.630</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.801</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.801</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">31</NumberValidEnsembles>
+			<NumberValidCells type="int">12</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Constant</TopMethod>
+					<BottomMethod type="char">No Slip</BottomMethod>
+					<Exponent type="double">0.4273</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.28</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1439.6325</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.09</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">0.87</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">-0.52</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.06</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.05</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">5.50</Location>
+			<StartDateTime type="char">2025.10.03 09:12:03</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:12:42</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.50</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:11:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">13.92</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">4.04</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.743</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">8.680</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.709</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.887</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.857</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">40</NumberValidEnsembles>
+			<NumberValidCells type="int">6</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Power</TopMethod>
+					<BottomMethod type="char">Power</BottomMethod>
+					<Exponent type="double">0.1667</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.28</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1439.6125</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.09</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">0.71</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">-0.44</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.06</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.06</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">5.70</Location>
+			<StartDateTime type="char">2025.10.03 09:10:57</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:11:36</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.51</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:10:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">15.11</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">3.05</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.708</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">8.685</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.684</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.880</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.856</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">40</NumberValidEnsembles>
+			<NumberValidCells type="int">6</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Power</TopMethod>
+					<BottomMethod type="char">Power</BottomMethod>
+					<Exponent type="double">0.1667</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.27</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1439.6000</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.09</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">0.62</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">-0.41</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.09</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.03</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">5.90</Location>
+			<StartDateTime type="char">2025.10.03 09:09:21</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:10:00</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.51</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:08:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">13.45</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">3.98</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.661</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">9.154</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.637</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.843</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.856</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">40</NumberValidEnsembles>
+			<NumberValidCells type="int">6</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Power</TopMethod>
+					<BottomMethod type="char">Power</BottomMethod>
+					<Exponent type="double">0.1667</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.28</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1439.6000</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.09</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">0.52</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">-0.30</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.07</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.06</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">6.10</Location>
+			<StartDateTime type="char">2025.10.03 09:08:14</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:08:53</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.49</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:07:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">11.60</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">2.85</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.708</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">9.603</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.656</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.831</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.764</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">23</NumberValidEnsembles>
+			<NumberValidCells type="int">10</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Power</TopMethod>
+					<BottomMethod type="char">Power</BottomMethod>
+					<Exponent type="double">0.3190</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.27</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1439.6000</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.10</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">0.34</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">-0.19</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.05</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.04</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">6.30</Location>
+			<StartDateTime type="char">2025.10.03 09:06:58</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:07:37</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.48</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:06:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">16.48</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">2.60</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.794</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">5.061</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.785</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.958</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.951</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">33</NumberValidEnsembles>
+			<NumberValidCells type="int">13</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Power</TopMethod>
+					<BottomMethod type="char">Power</BottomMethod>
+					<Exponent type="double">0.0500</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.27</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1439.5975</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.10</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">0.13</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">-0.09</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.05</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.04</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">6.50</Location>
+			<StartDateTime type="char">2025.10.03 09:05:48</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:06:27</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.48</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:05:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">15.04</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">3.09</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.748</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">6.483</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.727</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.907</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.854</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">39</NumberValidEnsembles>
+			<NumberValidCells type="int">13</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Power</TopMethod>
+					<BottomMethod type="char">Power</BottomMethod>
+					<Exponent type="double">0.1667</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.26</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1439.5975</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.10</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">-0.05</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">-0.03</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.06</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.05</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">6.70</Location>
+			<StartDateTime type="char">2025.10.03 09:04:39</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:05:18</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.47</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:04:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">13.42</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">2.37</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.745</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">5.307</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.732</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.957</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.926</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">39</NumberValidEnsembles>
+			<NumberValidCells type="int">13</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Power</TopMethod>
+					<BottomMethod type="char">Power</BottomMethod>
+					<Exponent type="double">0.0773</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.26</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1439.5925</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.11</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">-0.09</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">0.04</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.05</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.05</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">6.90</Location>
+			<StartDateTime type="char">2025.10.03 09:03:35</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:04:14</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.46</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:03:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">16.13</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">2.49</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.694</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">3.555</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.669</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.971</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.971</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">40</NumberValidEnsembles>
+			<NumberValidCells type="int">13</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Constant</TopMethod>
+					<BottomMethod type="char">No Slip</BottomMethod>
+					<Exponent type="double">0.1607</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.27</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1439.6000</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.11</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">-0.14</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">0.17</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.05</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.05</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">7.10</Location>
+			<StartDateTime type="char">2025.10.03 09:02:21</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:03:00</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.44</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:01:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">16.56</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">3.35</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.609</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">4.500</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.586</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.973</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.973</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">36</NumberValidEnsembles>
+			<NumberValidCells type="int">12</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Constant</TopMethod>
+					<BottomMethod type="char">No Slip</BottomMethod>
+					<Exponent type="double">0.1667</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.29</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1439.6675</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.11</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">-0.39</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">0.22</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.04</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.04</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Location type="double" unitscode="m">7.25</Location>
+			<StartDateTime type="char">2025.10.03 09:01:04</StartDateTime>
+			<EndDateTime type="char">2025.10.03 09:01:43</EndDateTime>
+			<WaterSurfaceCondition type="char">Open</WaterSurfaceCondition>
+			<ADCPDepth type="double" unitscode="m">0.03</ADCPDepth>
+			<Depth type="double" unitscode="m">0.44</Depth>
+			<GaugeHeight type="double" unitscode="m">0.000</GaugeHeight>
+			<GaugeHeightTime type="char">09:00:00</GaugeHeightTime>
+			<VelocityMethod type="char">Azimuth</VelocityMethod>
+			<VelocityReference type="char">None</VelocityReference>
+			<VelocityDirection type="double" unitscode="deg">14.16</VelocityDirection>
+			<VelocityDirectionStdDev type="double" unitscode="deg">4.39</VelocityDirectionStdDev>
+			<VelocityMagnitude type="double" unitscode="mps">0.554</VelocityMagnitude>
+			<VelocityMagnitudeCV type="double">8.038</VelocityMagnitudeCV>
+			<NormalVelocity type="double" unitscode="mps">0.532</NormalVelocity>
+			<SurfaceAlphaTopCell type="double">0.929</SurfaceAlphaTopCell>
+			<SurfaceAlphaExtrap type="double">0.857</SurfaceAlphaExtrap>
+			<NumberValidEnsembles type="int">32</NumberValidEnsembles>
+			<NumberValidCells type="int">5</NumberValidCells>
+			<Duration type="double" unitscode="sec">40.0</Duration>
+			<Processing>
+				<Navigation>
+					<Reference type="char">None</Reference>
+					<CompositeTrack type="char">Off</CompositeTrack>
+					<MagneticVariation type="double" unitsCode="deg">0.00</MagneticVariation>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char">Off</OtherFilter>
+					<InterpolationType type="char">None</InterpolationType>
+				</Navigation>
+				<Depth>
+					<Reference type="char">VB</Reference>
+					<CompositeDepth type="char">On</CompositeDepth>
+					<ADCPDepth type="double" unitsCode="m">0.0300</ADCPDepth>
+					<FilterType type="char">Median</FilterType>
+					<InterpolationType type="char">Linear</InterpolationType>
+					<AveragingMethod type="char">None</AveragingMethod>
+					<ValidDataMethod type="char">QRev</ValidDataMethod>
+				</Depth>
+				<WaterTrack>
+					<CellMinEnsembles type="integer" unitsCode="m">8</CellMinEnsembles>
+					<ExcludedTop type="double" unitsCode="m">0.0000</ExcludedTop>
+					<ExcludedTopType type="char">Distance</ExcludedTopType>
+					<ExcludedBottom type="double" unitsCode="m">0.0000</ExcludedBottom>
+					<ExcludedBottomType type="char">Distance</ExcludedBottomType>
+					<BeamFilter type="char">Auto</BeamFilter>
+					<ErrorVelocityFilter type="char" unitsCode="mps">Auto</ErrorVelocityFilter>
+					<VerticalVelocityFilter type="char" unitsCode="mps">Auto</VerticalVelocityFilter>
+					<UseMeasurementThresholds type="char">No</UseMeasurementThresholds>
+					<OtherFilter type="char"/>
+					<SNRFilter type="char">Auto</SNRFilter>
+					<CellInterpolation type="char">None</CellInterpolation>
+					<EnsembleInterpolation type="char">None</EnsembleInterpolation>
+				</WaterTrack>
+				<Extrapolation>
+					<TopMethod type="char">Power</TopMethod>
+					<BottomMethod type="char">Power</BottomMethod>
+					<Exponent type="double">0.1667</Exponent>
+					<IceExponent type="double">0.1667</IceExponent>
+				</Extrapolation>
+			</Processing>
+			<Sensor>
+				<TemperatureSource type="char">internal</TemperatureSource>
+				<MeanTemperature type="double" unitsCode="degC">8.31</MeanTemperature>
+				<MeanSalinity type="double" unitsCode="ppt">0</MeanSalinity>
+				<SpeedofSoundSource type="char">ADCP</SpeedofSoundSource>
+				<SpeedofSound type="double" unitsCode="mps">1439.7475</SpeedofSound>
+				<BatteryVoltage type="double" unitsCode="vdc">4.11</BatteryVoltage>
+				<MeanPitch type="double" unitsCode="deg">-0.60</MeanPitch>
+				<MeanRoll type="double" unitsCode="deg">0.32</MeanRoll>
+				<PitchStdDev type="double" unitsCode="deg">0.03</PitchStdDev>
+				<RollStdDev type="double" unitsCode="deg">0.04</RollStdDev>
+			</Sensor>
+		</Vertical>
+		<Vertical>
+			<Bank type="char">Left</Bank>
+			<Location type="double" unitscode="m">7.50</Location>
+			<EdgeDepth type="double" unitscode="m">0.510</EdgeDepth>
+			<EdgeCoefficient type="double">0.7070</EdgeCoefficient>
+		</Vertical>
+	</VerticalDetails>
+</Channel>

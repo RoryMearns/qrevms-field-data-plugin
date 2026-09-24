@@ -5,8 +5,9 @@ An Aquarius Time-Series field data plugin that imports ADCP discharge summary XM
 
 ## Want to install this plugin?
 
-- No published releases yet - see **Building the plugin** below.
-- Install the resulting `.plugin` file using the System Config page on your AQTS app server.
+Download the [latest release here](https://github.com/RoryMearns/qrevms-field-data-plugin/releases/releases).
+
+Install the `.plugin` file using the System Config page on your Aquarius Time-Series server.
 
 ## Requirements for building from source
 
@@ -60,8 +61,7 @@ Sample QRevMS files are provided under `data/`.
 
 ## Known limitations
 
-- `DeploymentMethod` is always `Unspecified` - QRevMS does not record how the instrument was
-  deployed
+- `DeploymentMethod` is always `Unspecified`
 - `VelocityObservationMethod` is left unset - no value in the enum correctly describes an ADCP
   (see the `TODO` in `DischargeSectionMapper.cs`)
 - `IceCoveredData`'s thickness fields are left at zero

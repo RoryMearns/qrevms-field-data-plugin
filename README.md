@@ -1,5 +1,9 @@
 # QRevMS Field Data Plugin
 
+[![Build](https://github.com/RoryMearns/qrevms-field-data-plugin/actions/workflows/build.yml/badge.svg)](https://github.com/RoryMearns/qrevms-field-data-plugin/actions/workflows/build.yml)
+[![Tests](https://github.com/RoryMearns/qrevms-field-data-plugin/actions/workflows/test.yml/badge.svg)](https://github.com/RoryMearns/qrevms-field-data-plugin/actions/workflows/test.yml)
+
+
 An Aquarius Time-Series field data plugin that imports ADCP discharge summary XML measurements from
 [QRevMS](https://www.genesishydrotech.com/qrevms).
 

@@ -1,5 +1,6 @@
 [Bb]in/
 [Oo]bj/
+deploy/
 .idea/
 .vs/
 .vscode/
